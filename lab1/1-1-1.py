@@ -13,6 +13,6 @@ model.add( Dense(1, input_dim=1, activation = 'linear') )
 sgd = optimizers.SGD(lr = 0.01)
 model.compile(optimizer = sgd, loss='mse', metrics=['accuracy'])
 
-model.fit(study_time, results, batch_size=1, epochs=100, shuffle = False)
+model.fit(study_time, results, batch_size=1, epochs=10, shuffle = False)
 
 print(model.predict([7]))
