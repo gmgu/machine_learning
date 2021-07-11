@@ -28,3 +28,9 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem@LongPathsEnabled 
 ```
 4. (GPU 사용을 위해서) CUDA 설치
 5. (GPU 사용을 위해서) CuDNN 다운로드 후, dll 파일을 CUDA 설치된 directory의 bin 폴더에 넣음
+6. pytorch 설치
+```
+pytorch 홈페이지에서 (https://pytorch.org/get-started/locally/)
+환경에 맞는 선택지를 선택 후, 
+Run this command를 실행하면 된다.
+```
